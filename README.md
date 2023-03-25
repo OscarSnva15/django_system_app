@@ -128,4 +128,12 @@ django-admin --version
 
 Once time that we have installed django into project, we goint to init with our first project
 
-## Creating app Dashboard for project Django_System_App
+## Creating project Dashboard for project Django_System_App. . .
+
+                                                                    :)
+
+Hola mi nombre es oscar, if you wants to watch the documentation abouth <u>"Creating project Dashboard for project Django_System_App"</u> please send me email. because for moment the documentation is wrritting in my One Note on line, from Notion account :D
+
+Grettings, Oscar snva15
+
+[oscarsnva15@gmail.com](mailto:oscarsnva15@gmail.com)
