@@ -1,3 +1,4 @@
+#Este archivo,es para que nosotros podamos configurar todo el proyecto
 """
 Django settings for mysite_project project.
 
@@ -15,20 +16,21 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-@%ujvq&y6s0_=n*gz85!nrx8oo7pmhkr4(1#wdioox7z73cif1'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!, cuando este en desarollo o produccion nuestro proyecto
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definition, django nos permite dividir una aplicacion en varias partes
+
+#agregar las aplicaciones que conformarán el projecto
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -72,7 +74,8 @@ WSGI_APPLICATION = 'mysite_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+#Esta seccion de databases nos dice a que base de datos vamos a estar conectados, y podemos definir otro string que ndique conectarnos a 
+#otro tipo de bases de datos
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
