@@ -3,8 +3,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here. send files html
-def hello(request, username):
-    print(username)
+def hello(request):
     return HttpResponse("<h2>Hello Word</h2>")
 
 
